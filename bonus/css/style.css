@@ -1,0 +1,39 @@
+:root {
+    background-image: url(../wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    --height: 30px;
+}
+
+[class *= "col-"] {
+    height: var(--height);
+}
+
+.red{
+    background-color: red;
+    height: var(--height);
+}
+
+.black {
+    background-color: black;
+    height: var(--height);
+}
+
+.gold {
+    background-color: goldenrod;
+    height: var(--height);
+}
+
+.gray {
+    background-color: gray;
+    height: var(--height);
+}
+
+.blue {
+    background-color: aqua;
+    height: var(--height);
+}
+
+.white {
+    background-color: white;
+    height: var(--height);
+}
