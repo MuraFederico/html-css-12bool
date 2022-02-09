@@ -8,6 +8,10 @@
     height: var(--height);
 }
 
+.container {
+    margin-bottom: 50px;
+}
+
 .blue {
     background-color: blue;
     height: var(--height);
