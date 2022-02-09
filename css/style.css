@@ -1,0 +1,23 @@
+:root {
+    color: white;
+    --height: 100px;
+
+}
+
+[class *= "col-"] {
+    height: var(--height);
+}
+
+.blue {
+    background-color: blue;
+    height: var(--height);
+    padding: 10px 10px;
+
+    border: 1px solid white;
+}
+
+.green {
+    background-color: lime;
+    height: 80px;
+    border: 1px solid blue;
+}
